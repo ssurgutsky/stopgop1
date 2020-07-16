@@ -56,16 +56,11 @@ export default {
       this.onPreloadingUpdate()
       this.mainView.showImages('logo.jpg')
 
-      CacheController.ENABLED = true
       CacheController.setPreloadingCallback(this.onPreloadingUpdate)
+      this.onPreloadingUpdate()
       CacheController.loadAssets().then(res => {
         // console.log('cachedData:', CacheController.gameAssets)
         setTimeout(() => {
-          // localStorage.setItem('test', JSON.stringify(CacheController.gameAssets))
-          // let test = localStorage.getItem('test')
-          // CacheController.gameAssets = JSON.parse(test)
-          // console.log(CacheController.gameAssets)
-
           this.assetsCached()
         }, 1000)
       })
@@ -73,28 +68,18 @@ export default {
 
     onPreloadingUpdate (obj) {
       let text = 'Loading...'
-      if (!obj) return
-      if (obj.current === obj.total) {
-        text = text + ' done!'
-      } else {
-        text = text + obj.current + '/' + obj.total
-        this.mainView.updateTimerViewPercent(obj.current, obj.total)
+      if (obj) {
+        if (obj.current === obj.total) {
+          text = text + ' done!'
+        } else {
+          text = text + obj.current + '/' + obj.total
+          this.mainView.updateTimerViewPercent(obj.current, obj.total)
+        }
       }
       this.mainView.setQuestionText(text)
     },
 
     assetsCached () {
-      if (navigator.storage && navigator.storage.estimate) {
-        navigator.storage.estimate().then((estimate) => {
-          // quota.usage -> Number of bytes used.
-          // quota.quota -> Maximum number of bytes available.
-          const percentageUsed = (estimate.usage / estimate.quota) * 100
-          console.log('You ve used ' + percentageUsed + '% of the available storage.')
-          const remaining = estimate.quota - estimate.usage
-          console.log('You can write up to ' + remaining + ' more bytes.')
-        })
-      }
-
       // Start the game once all assets have been cached
       this.mainView.showGameView()
       let jsonObj = CacheController.getAssetByName(CacheController.CATEGORY_DATA, 'scenario.json')
