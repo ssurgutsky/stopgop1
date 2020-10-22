@@ -5,3 +5,6 @@ In total 10 possible finals.
 Вербально-интерактивный видео квест.
 Ты идешь по делам и встречаешь Гопа. Он хочет забрать твои деньги и мобилу.
 Всего 10 возможных финалов.
+
+
+This game is a text video quest game. It's not a monotonous thing. The main feature is in dialogs (questions-answers) between a player and main hero. Player must answer main hero questions to avoid problems and even take over of the main hero.
