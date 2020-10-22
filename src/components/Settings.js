@@ -10,7 +10,7 @@ export default {
   GAME_UPGRADE_POINT: 'GAME_UPGRADEPOINT',
   GAME_SAVE_POINT: 'GAME_SAVEPOINT',
   // Goto this mark if not found player's one on LOAD button pressing
-  DEFAULT_LOAD_MARK_NAME: 'main_menu',
+  DEFAULT_LOAD_MARK_NAME: 'START',
   // Just a name of Index DB for this game
   INDEXEDDB_STORE_NAME: 'store_sg1',
   // Google Play IAP

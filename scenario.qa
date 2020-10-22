@@ -383,3 +383,6 @@
 		[mark_n4f3t5qf3l1tjoui2c2f][NAVIGATEURL https://www.donationalerts.com/r/serjionio]
 			
 				[mark_xw21sf4q2mxo3q0x9b78][GOTO START]
+[GAME_UPGRADEPOINT]There was an upgrade so need to start it for new...\n ороче, был апгрейд игры, надо начать заново...[IMAGE Intro.jpg]
+	Well okay... / Ёх, ну ладно...
+		[mark_cb3sx57ckhd5527yfel9][GOTO START]
