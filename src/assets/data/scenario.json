@@ -1023,7 +1023,7 @@
                               "_content": "[LABEL ]"
                             }
                           ],
-                          "_mark": "GAME_SAVEPOINT",
+                          "_mark": "",
                           "_content": "[LABEL ][GOTO language_{this.lang;}]"
                         }
                       ],
@@ -1036,7 +1036,7 @@
                 }
               ],
               "_mark": "",
-              "_content": "[LABEL ENGLISH]"
+              "_content": "[LABEL English / На английском]"
             },
             {
               "node": [
@@ -2058,11 +2058,33 @@
                 }
               ],
               "_mark": "",
-              "_content": "[LABEL RUSSIAN]"
+              "_content": "[LABEL Russian / На русском]"
+            },
+            {
+              "node": [
+                {
+                  "node": [
+                    {
+                      "node": [
+                        {
+                          "_mark": "mark_xw21sf4q2mxo3q0x9b78",
+                          "_content": "[LABEL ][GOTO START]"
+                        }
+                      ],
+                      "_mark": "",
+                      "_content": "[LABEL ]"
+                    }
+                  ],
+                  "_mark": "mark_n4f3t5qf3l1tjoui2c2f",
+                  "_content": "[LABEL ][NAVIGATEURL https://www.donationalerts.com/r/serjionio]"
+                }
+              ],
+              "_mark": "",
+              "_content": "[LABEL Donate / Дать денежку]"
             }
           ],
-          "_mark": "mark_2y5zj7f97ck43tmi8u7f",
-          "_content": "[LABEL Stop Gop 1. Simulator gopa, part 1.][BGNDIMAGE Intro.jpg][ANSWERSORDER ON]"
+          "_mark": "START,GAME_SAVEPOINT",
+          "_content": "[LABEL Stop Gop 1. Simulator Gopnik. Choose language.\nСтоп Гоп 1. Симулятор Гопника. Выбери язык.][BGNDIMAGE Intro.jpg][ANSWERSORDER ON]"
         }
       ]
     }

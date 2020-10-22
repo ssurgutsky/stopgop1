@@ -1,8 +1,8 @@
-[mark_2y5zj7f97ck43tmi8u7f]Stop Gop 1. Simulator gopa, part 1.[BGNDIMAGE Intro.jpg][ANSWERSORDER ON]
-	ENGLISH
+[START,GAME_SAVEPOINT]Stop Gop 1. Simulator Gopnik. Choose language.\nСтоп Гоп 1. Симулятор Гопника. Выбери язык.[BGNDIMAGE Intro.jpg][ANSWERSORDER ON]
+	English / На английском
 		[mark_1lmn36h9rk20b158p6os]{this.lang='en';''}[AMBIENT AmbientStreet][BGNDVIDEO Intro.flv][ANSWERTIME 18.5][TIMEEXPIRED GAME_SAVEPOINT]Somewhere in Siberia...
 			Start the game.
-				[GAME_SAVEPOINT][GOTO language_{this.lang;}]
+				[mark_0f628v7jbfef9ank3i3h][GOTO language_{this.lang;}]
 					
 						[language_en][AMBIENT AmbientStreet]Hey, brotha, wait![VIDEO GopSpeechSimpleLoop][AUDIO {this.lang}/Hey_brother_stop][BGNDVIDEO GopEatsSunflowerSeedsLoop,GopDrinks,GopSmokes][ANSWERTIME 30][TIMEEXPIRED gop_punchs_to_face_en]
 							What do you want?
@@ -190,7 +190,7 @@
 													[Что_тебе_надо_en]What do you want from me?
 														[mark_1ru1811u41591n62l6pd_en][GOTO С_какого_района_en]
 								[gop_punchs_to_face_en][VIDEO GopPunchesToFace][AUDIO {this.lang}/Take_it_fool][FINAL The time's gone...]
-	RUSSIAN
+	Russian / На русском
 		[mark_1lmn36h9rk20b158p6os]{this.lang='ru';''}[BGNDVIDEO Intro.flv][ANSWERTIME 18.5][TIMEEXPIRED GAME_SAVEPOINT][AMBIENT AmbientStreet]Где-то в Сибири...
 			Начать игру.
 				[language_ru][AMBIENT AmbientStreet]Эээ... братишка, постой![VIDEO GopSpeechSimpleLoop][AUDIO {this.lang}/Hey_brother_stop][BGNDVIDEO GopEatsSunflowerSeedsLoop,GopDrinks,GopSmokes][ANSWERTIME 30][TIMEEXPIRED gop_punchs_to_face]
@@ -379,3 +379,7 @@
 											[Что_тебе_надо]Что тебе от меня надо?
 												[mark_1ru1811u41591n62l6pd][GOTO С_какого_района]
 						[gop_punchs_to_face][VIDEO GopPunchesToFace][AUDIO {this.lang}/Take_it_fool][SOUNDFX boom2][FINAL Время истекло...]
+	Donate / Дать денежку
+		[mark_n4f3t5qf3l1tjoui2c2f][NAVIGATEURL https://www.donationalerts.com/r/serjionio]
+			
+				[mark_xw21sf4q2mxo3q0x9b78][GOTO START]
