@@ -1032,7 +1032,7 @@
                     }
                   ],
                   "_mark": "mark_1lmn36h9rk20b158p6os",
-                  "_content": "[LABEL {this.lang='en';''}Somewhere in Siberia...][BGNDVIDEO Intro.flv][AMBIENT AmbientStreet][TIMEEXPIRED GAME_SAVEPOINT][ANSWERTIME 18.5]"
+                  "_content": "[LABEL {this.lang='en';''}Somewhere in Siberia...][BGNDVIDEO Intro.flv][AMBIENT AmbientStreet][TIMEEXPIRED language_en][ANSWERTIME 18.5]"
                 }
               ],
               "_mark": "",
@@ -2054,7 +2054,7 @@
                     }
                   ],
                   "_mark": "mark_1lmn36h9rk20b158p6os",
-                  "_content": "[LABEL {this.lang='ru';''}Где-то в Сибири...][BGNDVIDEO Intro.flv][AMBIENT AmbientStreet][TIMEEXPIRED GAME_SAVEPOINT][ANSWERTIME 18.5]"
+                  "_content": "[LABEL {this.lang='ru';''}Где-то в Сибири...][BGNDVIDEO Intro.flv][AMBIENT AmbientStreet][TIMEEXPIRED language_ru][ANSWERTIME 18.5]"
                 }
               ],
               "_mark": "",

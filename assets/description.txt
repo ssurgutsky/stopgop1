@@ -1,6 +1,7 @@
-Verbal-interactive video quest.
-You went by your business and met the Gop. He wants to take you money and mobile.
-In total 10 possible finals.
+Verbal-Interactive video quest.
+You went by your business and met the Gop. He wants to take your money and mobile. Answering his questions you have to get rid of him or even better if you take the money from himself.
+In total 10 possible finals (1 main, 2 neutral and 7 negative)
+
 ----------------
 Вербально-интерактивный видео квест.
 Ты идешь по делам и встречаешь Гопа. Он хочет забрать твои деньги и мобилу.
