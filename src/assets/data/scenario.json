@@ -1028,7 +1028,7 @@
                         }
                       ],
                       "_mark": "",
-                      "_content": "[LABEL Start the game.]"
+                      "_content": "[LABEL Skip intro]"
                     }
                   ],
                   "_mark": "mark_1lmn36h9rk20b158p6os",
@@ -2050,7 +2050,7 @@
                         }
                       ],
                       "_mark": "",
-                      "_content": "[LABEL Начать игру.]"
+                      "_content": "[LABEL Пропустить заставку]"
                     }
                   ],
                   "_mark": "mark_1lmn36h9rk20b158p6os",
@@ -2076,11 +2076,33 @@
                     }
                   ],
                   "_mark": "mark_n4f3t5qf3l1tjoui2c2f",
-                  "_content": "[LABEL ][NAVIGATEURL https://www.donationalerts.com/r/serjionio]"
+                  "_content": "[LABEL ][NAVIGATEURL https://qiwi.com/n/SERJIOS]"
                 }
               ],
               "_mark": "",
               "_content": "[LABEL Donate / Дать денежку]"
+            },
+            {
+              "node": [
+                {
+                  "node": [
+                    {
+                      "node": [
+                        {
+                          "_mark": "mark_gpz4h2d5q2gj83yqc71b",
+                          "_content": "[LABEL ][GOTO START]"
+                        }
+                      ],
+                      "_mark": "",
+                      "_content": "[LABEL ]"
+                    }
+                  ],
+                  "_mark": "mark_8o716rk6f9gm5w4vo191",
+                  "_content": "[LABEL ][NAVIGATEURL https://www.donationalerts.com/r/serjionio]"
+                }
+              ],
+              "_mark": "",
+              "_content": "[LABEL Donate2 / Дать денежку2]"
             }
           ],
           "_mark": "START,GAME_SAVEPOINT",

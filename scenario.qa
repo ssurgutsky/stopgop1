@@ -1,7 +1,7 @@
 [START,GAME_SAVEPOINT]Stop Gop 1. Simulator Gopnik. Choose language.\nСтоп Гоп 1. Симулятор Гопника. Выбери язык.[BGNDIMAGE Intro.jpg][ANSWERSORDER ON]
 	English / На английском
 		[mark_1lmn36h9rk20b158p6os]{this.lang='en';''}[AMBIENT AmbientStreet][BGNDVIDEO Intro.flv][ANSWERTIME 18.5][TIMEEXPIRED language_en]Somewhere in Siberia...
-			Start the game.
+			Skip intro
 				[mark_0f628v7jbfef9ank3i3h][GOTO language_{this.lang;}]
 					
 						[language_en][AMBIENT AmbientStreet]Hey, brotha, wait![VIDEO GopSpeechSimpleLoop][AUDIO {this.lang}/Hey_brother_stop][BGNDVIDEO GopEatsSunflowerSeedsLoop,GopDrinks,GopSmokes][ANSWERTIME 30][TIMEEXPIRED gop_punchs_to_face_en]
@@ -192,7 +192,7 @@
 								[gop_punchs_to_face_en][VIDEO GopPunchesToFace][AUDIO {this.lang}/Take_it_fool][FINAL The time's gone...]
 	Russian / На русском
 		[mark_1lmn36h9rk20b158p6os]{this.lang='ru';''}[BGNDVIDEO Intro.flv][ANSWERTIME 18.5][TIMEEXPIRED language_ru][AMBIENT AmbientStreet]Где-то в Сибири...
-			Начать игру.
+			Пропустить заставку
 				[language_ru][AMBIENT AmbientStreet]Эээ... братишка, постой![VIDEO GopSpeechSimpleLoop][AUDIO {this.lang}/Hey_brother_stop][BGNDVIDEO GopEatsSunflowerSeedsLoop,GopDrinks,GopSmokes][ANSWERTIME 30][TIMEEXPIRED gop_punchs_to_face]
 					Чего тебе?
 						[mark_z71rq861ty82c6v63397]А ты чо такой грубый?[BGNDVIDEO GopEatsSunflowerSeedsLoop,GopDrinks,GopSmokes][ANSWERTIME 30][TIMEEXPIRED gop_punchs_to_face][AUDIO {this.lang}/Why_are_you_so_rude][VIDEO GopSpeechSimpleLoop]
@@ -380,6 +380,10 @@
 												[mark_1ru1811u41591n62l6pd][GOTO С_какого_района]
 						[gop_punchs_to_face][VIDEO GopPunchesToFace][AUDIO {this.lang}/Take_it_fool][SOUNDFX boom2][FINAL Время истекло...]
 	Donate / Дать денежку
-		[mark_n4f3t5qf3l1tjoui2c2f][NAVIGATEURL https://www.donationalerts.com/r/serjionio]
+		[mark_n4f3t5qf3l1tjoui2c2f][NAVIGATEURL https://qiwi.com/n/SERJIOS]
 			
 				[mark_xw21sf4q2mxo3q0x9b78][GOTO START]
+	Donate2 / Дать денежку2
+		[mark_8o716rk6f9gm5w4vo191][NAVIGATEURL https://www.donationalerts.com/r/serjionio]
+			
+				[mark_gpz4h2d5q2gj83yqc71b][GOTO START]
