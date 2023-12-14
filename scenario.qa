@@ -1,4 +1,4 @@
-[START,GAME_SAVEPOINT]Stop Gop 1. Simulator Gopnik. Choose language.\nСтоп Гоп 1. Симулятор Гопника. Выбери язык.[BGNDIMAGE Intro.jpg][ANSWERSORDER ON]
+[START,GAME_SAVEPOINT]Stop Gop 1. Simulator Gopnik.\nСтоп Гоп 1. Симулятор Гопника.\nv1.{this.game_version}\nChoose language. Выбери язык.[BGNDIMAGE Intro.jpg][ANSWERSORDER ON]
 	English / На английском
 		[mark_1lmn36h9rk20b158p6os]{this.lang='en';''}[AMBIENT AmbientStreet][BGNDVIDEO Intro.flv][ANSWERTIME 18.5][TIMEEXPIRED language_en]Somewhere in Siberia...
 			Skip intro

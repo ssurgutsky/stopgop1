@@ -2135,12 +2135,12 @@
                   "_content": "[LABEL Если понравилось, закинь сколько не жалко.][IMAGE donate.png]"
                 }
               ],
-              "_mark": "",
+              "_mark": "donate",
               "_content": "[LABEL Donate / Дать денежку]"
             }
           ],
           "_mark": "START,GAME_SAVEPOINT",
-          "_content": "[LABEL Stop Gop 1. Simulator Gopnik. Choose language.\nСтоп Гоп 1. Симулятор Гопника. Выбери язык.][BGNDIMAGE Intro.jpg][ANSWERSORDER ON]"
+          "_content": "[LABEL Stop Gop 1. Simulator Gopnik.\nСтоп Гоп 1. Симулятор Гопника.\nv1.{this.game_version}\nChoose language. Выбери язык.][BGNDIMAGE Intro.jpg][ANSWERSORDER ON]"
         }
       ]
     }
