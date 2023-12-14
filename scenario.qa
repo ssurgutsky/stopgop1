@@ -380,10 +380,16 @@
 												[mark_1ru1811u41591n62l6pd][GOTO С_какого_района]
 						[gop_punchs_to_face][VIDEO GopPunchesToFace][AUDIO {this.lang}/Take_it_fool][SOUNDFX boom2][FINAL Время истекло...]
 	Donate / Дать денежку
-		[mark_n4f3t5qf3l1tjoui2c2f][NAVIGATEURL https://qiwi.com/n/SERJIOS]
-			
-				[mark_xw21sf4q2mxo3q0x9b78][GOTO START]
-	Donate2 / Дать денежку2
-		[mark_8o716rk6f9gm5w4vo191][NAVIGATEURL https://www.donationalerts.com/r/serjionio]
-			
-				[mark_gpz4h2d5q2gj83yqc71b][GOTO START]
+		[mark_8o716rk6f9gm5w4vo191][IMAGE donate.png]Если понравилось, закинь сколько не жалко.
+			Перевод Tinkoff
+				[mark_f80u11uv548604r8v3v5][NAVIGATEURL https://www.tinkoff.ru/cf/7xIiPBRWF9P]
+					
+						[mark_gpz4h2d5q2gj83yqc71b][GOTO START]
+			Перевод Qiwi
+				[mark_n4f3t5qf3l1tjoui2c2f][NAVIGATEURL https://qiwi.com/n/SERJIOS]
+					
+						[mark_xw21sf4q2mxo3q0x9b78][GOTO START]
+			Перевод YooMoney
+				[mark_iz89w1lh9902e1966gt6][NAVIGATEURL https://yoomoney.ru/to/41001220674141]
+					
+						[mark_06z79l0n6q345b2ni5q2][GOTO START]
